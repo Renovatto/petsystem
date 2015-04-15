@@ -1,0 +1,1 @@
+CREATE TABLE `users` (  `id` INT(20) NOT NULL AUTO_INCREMENT,  `role_id` INT(11) NOT NULL,  `username` VARCHAR(60) COLLATE utf8_unicode_ci NOT NULL,  `password` VARCHAR(100) COLLATE utf8_unicode_ci NOT NULL,  `status` TINYINT(1) NOT NULL DEFAULT '0',  PRIMARY KEY (`id`)) 
