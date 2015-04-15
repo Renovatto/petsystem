@@ -3016,3 +3016,14 @@ Stack Trace:
 #1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
 #2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2015-04-14 23:44:35 Error: [MissingActionException] Action ClientesController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'assets',
+)
+Request URL: /petsystem/clientes/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
