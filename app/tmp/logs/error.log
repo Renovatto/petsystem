@@ -3027,3 +3027,1753 @@ Stack Trace:
 #1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
 #2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2015-04-14 23:57:59 Error: [MissingActionException] Action ClientesController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'assets',
+)
+Request URL: /petsystem/clientes/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-16 22:04:19 Error: [MissingActionException] Action ClientesController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'assets',
+)
+Request URL: /petsystem/clientes/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-16 22:10:18 Error: [MissingActionException] Action PagarController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagarController',
+  'action' => 'assets',
+)
+Request URL: /petsystem/pagar/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-16 22:25:24 Error: [MissingActionException] Action PagarController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagarController',
+  'action' => 'assets',
+)
+Request URL: /petsystem/pagar/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-16 22:39:10 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-16 22:39:46 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-16 22:41:09 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-16 22:41:23 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-16 22:53:38 Error: [MissingActionException] Action PagarController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagarController',
+  'action' => 'assets',
+)
+Request URL: /petsystem/pagar/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-16 23:09:07 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-16 23:11:27 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-16 23:23:06 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-18 11:47:48 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-18 12:00:19 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-18 12:00:45 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-18 12:01:01 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-18 12:02:40 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-18 12:13:07 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-18 12:13:28 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-18 12:16:28 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-18 12:18:14 Error: Fatal Error (4): parse error in [/Library/WebServer/Documents/petsystem/app/View/Pagar/index.ctp, line 93]
+2015-04-18 12:18:14 Error: [FatalErrorException] parse error
+Request URL: /petsystem/pagar
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Library/WebSer...', 93)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Library/WebSer...', 93, Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Library/WebSer...', 93, Array)
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-18 12:18:32 Error: Fatal Error (4): parse error, expecting `'('' in [/Library/WebServer/Documents/petsystem/app/View/Pagar/index.ctp, line 93]
+2015-04-18 12:18:32 Error: [FatalErrorException] parse error, expecting `'(''
+Request URL: /petsystem/pagar
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Library/WebSer...', 93)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Library/WebSer...', 93, Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Library/WebSer...', 93, Array)
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-18 12:19:18 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-18 12:20:05 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-18 12:22:15 Error: [MissingActionException] Action ClientesController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'assets',
+)
+Request URL: /petsystem/clientes/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-18 12:23:43 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-18 16:46:58 Error: [MissingTableException] Table categoria_financeiros for model categoria_financeiro was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'categoria_financeiros',
+  'class' => 'categoria_financeiro',
+  'ds' => 'default',
+)
+Request URL: /petsystem/pagar
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Model.php(3498): Model->setSource('categoria_finan...')
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(1063): Model->getDataSource()
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Model.php(2902): DboSource->read(Object(Pagar), Array)
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Model.php(2874): Model->_readDataSource('all', Array)
+#4 /Library/WebServer/Documents/petsystem/app/Controller/PagarController.php(40): Model->find('all')
+#5 [internal function]: PagarController->index()
+#6 /Library/WebServer/Documents/petsystem/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagarController), Array)
+#7 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#9 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-04-18 16:49:32 Error: Fatal Error (64): Cannot redeclare class Raca in [/Library/WebServer/Documents/petsystem/app/Model/categoria_financeiro.php, line 10]
+2015-04-18 16:49:32 Error: [FatalErrorException] Cannot redeclare class Raca
+Request URL: /petsystem/pagar
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Library/WebSer...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Library/WebSer...', 10, Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Library/WebSer...', 10, Array)
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-18 16:50:07 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-18 16:53:04 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Pagar.categoria__financeiro_id' in 'on clause'
+Request URL: /petsystem/pagar/
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Pagar`....', Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `Pagar`....', Array, Array)
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Pagar`....', true)
+#4 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Model.php(2902): DboSource->read(Object(Pagar), Array)
+#5 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Model.php(2874): Model->_readDataSource('all', Array)
+#6 /Library/WebServer/Documents/petsystem/app/Controller/PagarController.php(40): Model->find('all')
+#7 [internal function]: PagarController->index()
+#8 /Library/WebServer/Documents/petsystem/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagarController), Array)
+#9 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#11 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-18 17:18:13 Error: [MissingActionException] Action PagarController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagarController',
+  'action' => 'assets',
+)
+Request URL: /petsystem/pagar/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-18 17:19:21 Error: [MissingActionException] Action PagarController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagarController',
+  'action' => 'assets',
+)
+Request URL: /petsystem/pagar/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-18 17:19:43 Error: [MissingActionException] Action PagarController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagarController',
+  'action' => 'assets',
+)
+Request URL: /petsystem/pagar/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-18 17:20:47 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Pagar.categoria__financeiro_id' in 'on clause'
+Request URL: /petsystem/pagar/
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Pagar`....', Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `Pagar`....', Array, Array)
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Pagar`....', true)
+#4 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Model.php(2902): DboSource->read(Object(Pagar), Array)
+#5 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Model.php(2874): Model->_readDataSource('all', Array)
+#6 /Library/WebServer/Documents/petsystem/app/Controller/PagarController.php(40): Model->find('all')
+#7 [internal function]: PagarController->index()
+#8 /Library/WebServer/Documents/petsystem/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagarController), Array)
+#9 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#11 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-18 17:21:05 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Pagar.categoria__financeiro_id' in 'on clause'
+Request URL: /petsystem/pagar/
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Pagar`....', Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `Pagar`....', Array, Array)
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Pagar`....', true)
+#4 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Model.php(2902): DboSource->read(Object(Pagar), Array)
+#5 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Model.php(2874): Model->_readDataSource('all', Array)
+#6 /Library/WebServer/Documents/petsystem/app/Controller/PagarController.php(40): Model->find('all')
+#7 [internal function]: PagarController->index()
+#8 /Library/WebServer/Documents/petsystem/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagarController), Array)
+#9 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#11 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-18 17:21:31 Error: [MissingActionException] Action PagarController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagarController',
+  'action' => 'assets',
+)
+Request URL: /petsystem/pagar/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-18 17:22:50 Error: [MissingActionException] Action PagarController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagarController',
+  'action' => 'assets',
+)
+Request URL: /petsystem/pagar/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-18 17:23:22 Error: [MissingActionException] Action PagarController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagarController',
+  'action' => 'assets',
+)
+Request URL: /petsystem/pagar/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-18 17:24:27 Error: [MissingActionException] Action PagarController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagarController',
+  'action' => 'assets',
+)
+Request URL: /petsystem/pagar/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-18 17:24:43 Error: [MissingActionException] Action PagarController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagarController',
+  'action' => 'assets',
+)
+Request URL: /petsystem/pagar/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-18 17:25:06 Error: [MissingActionException] Action PagarController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagarController',
+  'action' => 'assets',
+)
+Request URL: /petsystem/pagar/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-18 17:37:01 Error: Fatal Error (64): Cannot redeclare class Bancos in [/Library/WebServer/Documents/petsystem/app/Model/banco.php, line 10]
+2015-04-18 17:37:01 Error: [FatalErrorException] Cannot redeclare class Bancos
+Request URL: /petsystem/pagar/
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Library/WebSer...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Library/WebSer...', 10, Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Library/WebSer...', 10, Array)
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-18 17:37:46 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'banco.descricao' in 'field list'
+Request URL: /petsystem/pagar/
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Pagar`....', Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `Pagar`....', Array, Array)
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Pagar`....', true)
+#4 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Model.php(2902): DboSource->read(Object(Pagar), Array)
+#5 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Model.php(2874): Model->_readDataSource('all', Array)
+#6 /Library/WebServer/Documents/petsystem/app/Controller/PagarController.php(48): Model->find('all')
+#7 [internal function]: PagarController->index()
+#8 /Library/WebServer/Documents/petsystem/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagarController), Array)
+#9 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#11 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-18 17:38:13 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'ativo' in on clause is ambiguous
+Request URL: /petsystem/pagar/
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Pagar`....', Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `Pagar`....', Array, Array)
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Pagar`....', true)
+#4 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Model.php(2902): DboSource->read(Object(Pagar), Array)
+#5 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Model.php(2874): Model->_readDataSource('all', Array)
+#6 /Library/WebServer/Documents/petsystem/app/Controller/PagarController.php(48): Model->find('all')
+#7 [internal function]: PagarController->index()
+#8 /Library/WebServer/Documents/petsystem/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagarController), Array)
+#9 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#11 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-18 17:39:19 Error: [MissingActionException] Action PagarController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagarController',
+  'action' => 'assets',
+)
+Request URL: /petsystem/pagar/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-18 17:39:52 Error: [MissingActionException] Action PagarController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagarController',
+  'action' => 'assets',
+)
+Request URL: /petsystem/pagar/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-18 18:07:51 Error: Fatal Error (4): parse error, expecting `')'' in [/Library/WebServer/Documents/petsystem/app/Model/Pagar.php, line 18]
+2015-04-18 18:07:51 Error: [FatalErrorException] parse error, expecting `')''
+Request URL: /petsystem/pagar/novo
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Library/WebSer...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Library/WebSer...', 18, Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Library/WebSer...', 18, Array)
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-18 18:09:41 Error: [MissingActionException] Action PagarController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagarController',
+  'action' => 'assets',
+)
+Request URL: /petsystem/pagar/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-18 18:11:58 Error: [MissingActionException] Action PagarController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagarController',
+  'action' => 'assets',
+)
+Request URL: /petsystem/pagar/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-18 18:20:35 Error: [MissingActionException] Action PagarController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagarController',
+  'action' => 'assets',
+)
+Request URL: /petsystem/pagar/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-18 18:22:09 Error: [MissingActionException] Action PagarController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagarController',
+  'action' => 'assets',
+)
+Request URL: /petsystem/pagar/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-18 18:22:17 Error: [MissingActionException] Action PagarController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagarController',
+  'action' => 'assets',
+)
+Request URL: /petsystem/pagar/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-18 18:24:03 Error: [MissingActionException] Action PagarController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagarController',
+  'action' => 'assets',
+)
+Request URL: /petsystem/pagar/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-18 18:32:41 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Banco.nome' in 'field list'
+Request URL: /petsystem/pagar/novo
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Banco`....', Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `Banco`....', Array, Array)
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Banco`....', true)
+#4 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Model.php(2902): DboSource->read(Object(Banco), Array)
+#5 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Model.php(2874): Model->_readDataSource('list', Array)
+#6 /Library/WebServer/Documents/petsystem/app/Controller/PagarController.php(25): Model->find('list', Array)
+#7 /Library/WebServer/Documents/petsystem/app/Controller/PagarController.php(31): PagarController->setListas()
+#8 [internal function]: PagarController->novo()
+#9 /Library/WebServer/Documents/petsystem/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagarController), Array)
+#10 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#12 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-04-18 18:33:32 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Banco.nome' in 'field list'
+Request URL: /petsystem/pagar/novo
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Banco`....', Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `Banco`....', Array, Array)
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Banco`....', true)
+#4 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Model.php(2902): DboSource->read(Object(Banco), Array)
+#5 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Model.php(2874): Model->_readDataSource('list', Array)
+#6 /Library/WebServer/Documents/petsystem/app/Controller/PagarController.php(25): Model->find('list', Array)
+#7 /Library/WebServer/Documents/petsystem/app/Controller/PagarController.php(31): PagarController->setListas()
+#8 [internal function]: PagarController->novo()
+#9 /Library/WebServer/Documents/petsystem/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagarController), Array)
+#10 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#12 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-04-18 18:52:16 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fornecedor.descricao' in 'field list'
+Request URL: /petsystem/pagar
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Pagar`....', Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `Pagar`....', Array, Array)
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Pagar`....', true)
+#4 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Model.php(2902): DboSource->read(Object(Pagar), Array)
+#5 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Model.php(2874): Model->_readDataSource('all', Array)
+#6 /Library/WebServer/Documents/petsystem/app/Controller/PagarController.php(56): Model->find('all')
+#7 [internal function]: PagarController->index()
+#8 /Library/WebServer/Documents/petsystem/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagarController), Array)
+#9 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#11 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-18 18:52:41 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-18 18:59:38 Error: [MissingActionException] Action PagarController::pagar() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagarController',
+  'action' => 'pagar',
+)
+Request URL: /petsystem/pagar/pagar
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-18 18:59:43 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-18 18:59:58 Error: [MissingActionException] Action PagarController::editar() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagarController',
+  'action' => 'editar',
+)
+Request URL: /petsystem/pagar/editar/9
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-18 19:00:09 Error: [MissingActionException] Action PagarController::listar() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagarController',
+  'action' => 'listar',
+)
+Request URL: /petsystem/pagar/listar
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-18 19:00:17 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-18 19:00:32 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-18 19:00:39 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-18 19:01:10 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-18 19:01:48 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-18 19:01:53 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-18 19:02:27 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-18 19:25:16 Error: Fatal Error (4): parse error in [/Library/WebServer/Documents/petsystem/app/View/Pagar/editar.ctp, line 103]
+2015-04-18 19:25:16 Error: [FatalErrorException] parse error
+Request URL: /petsystem/pagar/editar/9
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Library/WebSer...', 103)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Library/WebSer...', 103, Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Library/WebSer...', 103, Array)
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-18 19:25:16 Error: Fatal Error (4): parse error in [/Library/WebServer/Documents/petsystem/app/View/Pagar/editar.ctp, line 103]
+2015-04-18 19:25:16 Error: [FatalErrorException] parse error
+Request URL: /petsystem/pagar/editar/9
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Library/WebSer...', 103)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Library/WebSer...', 103, Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Library/WebSer...', 103, Array)
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-18 19:29:40 Error: Fatal Error (1): Call to a member function precisao() on a non-object in [/Library/WebServer/Documents/petsystem/app/Controller/PagarController.php, line 62]
+2015-04-18 19:29:40 Error: [FatalErrorException] Call to a member function precisao() on a non-object
+Request URL: /petsystem/pagar/editar/9
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Library/WebSer...', 62)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Library/WebSer...', 62, Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Library/WebSer...', 62, Array)
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-18 19:29:40 Error: Fatal Error (1): Call to a member function precisao() on a non-object in [/Library/WebServer/Documents/petsystem/app/Controller/PagarController.php, line 62]
+2015-04-18 19:29:40 Error: [FatalErrorException] Call to a member function precisao() on a non-object
+Request URL: /petsystem/pagar/editar/9
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Library/WebSer...', 62)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Library/WebSer...', 62, Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Library/WebSer...', 62, Array)
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-18 19:32:24 Error: Fatal Error (1): Call to a member function precisao() on a non-object in [/Library/WebServer/Documents/petsystem/app/Controller/PagarController.php, line 62]
+2015-04-18 19:32:24 Error: [FatalErrorException] Call to a member function precisao() on a non-object
+Request URL: /petsystem/pagar/editar/9
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Library/WebSer...', 62)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Library/WebSer...', 62, Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Library/WebSer...', 62, Array)
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-18 19:32:24 Error: Fatal Error (1): Call to a member function precisao() on a non-object in [/Library/WebServer/Documents/petsystem/app/Controller/PagarController.php, line 62]
+2015-04-18 19:32:24 Error: [FatalErrorException] Call to a member function precisao() on a non-object
+Request URL: /petsystem/pagar/editar/9
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Library/WebSer...', 62)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Library/WebSer...', 62, Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Library/WebSer...', 62, Array)
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-18 22:04:26 Error: Fatal Error (1): Class 'Formatacao' not found in [/Library/WebServer/Documents/petsystem/app/Controller/PagarController.php, line 51]
+2015-04-18 22:04:26 Error: [FatalErrorException] Class 'Formatacao' not found
+Request URL: /petsystem/pagar/editar/9
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Formatac...', '/Library/WebSer...', 51)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Formatac...', '/Library/WebSer...', 51, Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Formatac...', '/Library/WebSer...', 51, Array)
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-18 22:04:57 Error: Fatal Error (1): Class 'CakePtbr' not found in [/Library/WebServer/Documents/petsystem/app/Controller/PagarController.php, line 51]
+2015-04-18 22:04:57 Error: [FatalErrorException] Class 'CakePtbr' not found
+Request URL: /petsystem/pagar/editar/9
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'CakePtbr...', '/Library/WebSer...', 51)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'CakePtbr...', '/Library/WebSer...', 51, Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'CakePtbr...', '/Library/WebSer...', 51, Array)
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-18 22:05:15 Error: Fatal Error (1): Class 'CakePtbr' not found in [/Library/WebServer/Documents/petsystem/app/Controller/PagarController.php, line 51]
+2015-04-18 22:05:15 Error: [FatalErrorException] Class 'CakePtbr' not found
+Request URL: /petsystem/pagar/editar/9
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'CakePtbr...', '/Library/WebSer...', 51)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'CakePtbr...', '/Library/WebSer...', 51, Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'CakePtbr...', '/Library/WebSer...', 51, Array)
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-18 22:06:01 Error: Fatal Error (1): Class 'Formatacao' not found in [/Library/WebServer/Documents/petsystem/app/Controller/PagarController.php, line 51]
+2015-04-18 22:06:01 Error: [FatalErrorException] Class 'Formatacao' not found
+Request URL: /petsystem/pagar/editar/9
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Formatac...', '/Library/WebSer...', 51)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Formatac...', '/Library/WebSer...', 51, Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Formatac...', '/Library/WebSer...', 51, Array)
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-18 22:06:28 Error: Fatal Error (1): Class 'CakePtbr' not found in [/Library/WebServer/Documents/petsystem/app/Controller/PagarController.php, line 51]
+2015-04-18 22:06:28 Error: [FatalErrorException] Class 'CakePtbr' not found
+Request URL: /petsystem/pagar/editar/9
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'CakePtbr...', '/Library/WebSer...', 51)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'CakePtbr...', '/Library/WebSer...', 51, Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'CakePtbr...', '/Library/WebSer...', 51, Array)
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-18 22:07:06 Error: Fatal Error (1): Class 'Formatacao' not found in [/Library/WebServer/Documents/petsystem/app/Controller/PagarController.php, line 51]
+2015-04-18 22:07:06 Error: [FatalErrorException] Class 'Formatacao' not found
+Request URL: /petsystem/pagar/editar/9
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Formatac...', '/Library/WebSer...', 51)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Formatac...', '/Library/WebSer...', 51, Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Formatac...', '/Library/WebSer...', 51, Array)
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-19 19:40:01 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-21 16:48:55 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-21 16:52:18 Error: [MissingActionException] Action PagarController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagarController',
+  'action' => 'assets',
+)
+Request URL: /petsystem/pagar/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-21 17:02:01 Error: Fatal Error (4): parse error in [/Library/WebServer/Documents/petsystem/app/View/Pagar/editar.ctp, line 95]
+2015-04-21 17:02:01 Error: [FatalErrorException] parse error
+Request URL: /petsystem/pagar/editar/6
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Library/WebSer...', 95)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Library/WebSer...', 95, Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Library/WebSer...', 95, Array)
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-21 17:03:25 Error: Fatal Error (4): parse error in [/Library/WebServer/Documents/petsystem/app/View/Pagar/editar.ctp, line 95]
+2015-04-21 17:03:25 Error: [FatalErrorException] parse error
+Request URL: /petsystem/pagar/editar/6
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Library/WebSer...', 95)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Library/WebSer...', 95, Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Library/WebSer...', 95, Array)
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-21 17:03:29 Error: Fatal Error (4): parse error in [/Library/WebServer/Documents/petsystem/app/View/Pagar/editar.ctp, line 95]
+2015-04-21 17:03:29 Error: [FatalErrorException] parse error
+Request URL: /petsystem/pagar/editar/6
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Library/WebSer...', 95)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Library/WebSer...', 95, Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Library/WebSer...', 95, Array)
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-21 17:04:05 Error: Fatal Error (4): parse error in [/Library/WebServer/Documents/petsystem/app/View/Pagar/editar.ctp, line 95]
+2015-04-21 17:04:05 Error: [FatalErrorException] parse error
+Request URL: /petsystem/pagar/editar/6
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Library/WebSer...', 95)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Library/WebSer...', 95, Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Library/WebSer...', 95, Array)
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-21 17:39:12 Error: Fatal Error (4): parse error, expecting `')'' in [/Library/WebServer/Documents/petsystem/app/View/Pagar/editar.ctp, line 110]
+2015-04-21 17:39:12 Error: [FatalErrorException] parse error, expecting `')''
+Request URL: /petsystem/pagar/editar/6
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Library/WebSer...', 110)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Library/WebSer...', 110, Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Library/WebSer...', 110, Array)
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-21 17:39:33 Error: Fatal Error (4): parse error in [/Library/WebServer/Documents/petsystem/app/View/Pagar/editar.ctp, line 110]
+2015-04-21 17:39:33 Error: [FatalErrorException] parse error
+Request URL: /petsystem/pagar/editar/6
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Library/WebSer...', 110)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Library/WebSer...', 110, Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Library/WebSer...', 110, Array)
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-21 17:39:39 Error: Fatal Error (4): parse error in [/Library/WebServer/Documents/petsystem/app/View/Pagar/editar.ctp, line 110]
+2015-04-21 17:39:39 Error: [FatalErrorException] parse error
+Request URL: /petsystem/pagar/editar/6
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Library/WebSer...', 110)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Library/WebSer...', 110, Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Library/WebSer...', 110, Array)
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-21 17:41:36 Error: [MissingHelperException] Helper class precisaoHelper could not be found.
+Exception Attributes: array (
+  'class' => 'precisaoHelper',
+  'plugin' => false,
+)
+Request URL: /petsystem/pagar/editar/6
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('precisao')
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/View/View.php(818): HelperCollection->__isset('precisao')
+#2 /Library/WebServer/Documents/petsystem/app/View/Pagar/editar.ctp(110): View->__get('precisao')
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/View/View.php(929): include('/Library/WebSer...')
+#4 /Library/WebServer/Documents/petsystem/lib/Cake/View/View.php(891): View->_evaluate('/Library/WebSer...', Array)
+#5 /Library/WebServer/Documents/petsystem/lib/Cake/View/View.php(460): View->_render('/Library/WebSer...')
+#6 /Library/WebServer/Documents/petsystem/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#7 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#8 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#9 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-04-21 18:01:33 Error: Fatal Error (4): parse error in [/Library/WebServer/Documents/petsystem/app/Controller/PagarController.php, line 54]
+2015-04-21 18:01:33 Error: [FatalErrorException] parse error
+Request URL: /petsystem/pagar/editar/9
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Library/WebSer...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Library/WebSer...', 54, Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Library/WebSer...', 54, Array)
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-21 18:01:41 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-21 18:01:51 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-21 18:03:01 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-21 18:03:03 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-21 18:03:37 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-21 18:03:39 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-21 18:05:11 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-21 18:21:01 Error: [MissingActionException] Action PagarController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagarController',
+  'action' => 'assets',
+)
+Request URL: /petsystem/pagar/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-25 11:41:06 Error: [MissingActionException] Action PagarController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagarController',
+  'action' => 'assets',
+)
+Request URL: /petsystem/pagar/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-25 11:49:37 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-25 11:58:08 Error: [MissingControllerException] Controller class ClienteController could not be found.
+Exception Attributes: array (
+  'class' => 'ClienteController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/cliente/editar/6
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-25 11:58:17 Error: [MissingActionException] Action ClientesController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'assets',
+)
+Request URL: /petsystem/clientes/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-25 12:11:40 Error: [MissingActionException] Action PagarController::pagar() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagarController',
+  'action' => 'pagar',
+)
+Request URL: /petsystem/pagar/pagar
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-25 12:11:45 Error: [MissingActionException] Action PagarController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagarController',
+  'action' => 'assets',
+)
+Request URL: /petsystem/pagar/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-25 12:13:05 Error: [MissingActionException] Action PagarController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagarController',
+  'action' => 'assets',
+)
+Request URL: /petsystem/pagar/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-25 12:25:55 Error: [MissingActionException] Action PagarController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagarController',
+  'action' => 'assets',
+)
+Request URL: /petsystem/pagar/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-25 12:26:05 Error: [MissingActionException] Action PagarController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagarController',
+  'action' => 'assets',
+)
+Request URL: /petsystem/pagar/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-25 12:39:49 Error: [MissingActionException] Action ClientesController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'assets',
+)
+Request URL: /petsystem/clientes/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-25 12:42:38 Error: [MissingActionException] Action ClientesController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'assets',
+)
+Request URL: /petsystem/clientes/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-25 12:46:23 Error: [MissingControllerException] Controller class PagarsController could not be found.
+Exception Attributes: array (
+  'class' => 'PagarsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/pagars/editar/6
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-25 13:01:09 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-25 13:12:21 Error: [MissingActionException] Action PagarController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagarController',
+  'action' => 'assets',
+)
+Request URL: /petsystem/pagar/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-25 13:16:47 Error: [MissingActionException] Action PagarController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagarController',
+  'action' => 'assets',
+)
+Request URL: /petsystem/pagar/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-25 13:17:53 Error: [MissingActionException] Action PagarController::listar() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagarController',
+  'action' => 'listar',
+)
+Request URL: /petsystem/pagar/listar
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-25 13:18:18 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-25 13:19:06 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-25 13:24:59 Error: [MissingActionException] Action PagarController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagarController',
+  'action' => 'assets',
+)
+Request URL: /petsystem/pagar/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-25 13:25:33 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-25 13:25:48 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-25 13:31:46 Error: Fatal Error (4): parse error in [/Library/WebServer/Documents/petsystem/app/View/Pagar/editar.ctp, line 185]
+2015-04-25 13:31:46 Error: [FatalErrorException] parse error
+Request URL: /petsystem/pagar/editar/6
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Library/WebSer...', 185)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Library/WebSer...', 185, Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Library/WebSer...', 185, Array)
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-25 13:32:41 Error: Fatal Error (4): parse error in [/Library/WebServer/Documents/petsystem/app/View/Pagar/editar.ctp, line 185]
+2015-04-25 13:32:41 Error: [FatalErrorException] parse error
+Request URL: /petsystem/pagar/editar/6
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Library/WebSer...', 185)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Library/WebSer...', 185, Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Library/WebSer...', 185, Array)
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-25 13:32:50 Error: Fatal Error (4): parse error in [/Library/WebServer/Documents/petsystem/app/View/Pagar/editar.ctp, line 185]
+2015-04-25 13:32:50 Error: [FatalErrorException] parse error
+Request URL: /petsystem/pagar/editar/6
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Library/WebSer...', 185)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Library/WebSer...', 185, Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Library/WebSer...', 185, Array)
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-25 13:33:57 Error: Fatal Error (4): parse error in [/Library/WebServer/Documents/petsystem/app/View/Pagar/editar.ctp, line 185]
+2015-04-25 13:33:57 Error: [FatalErrorException] parse error
+Request URL: /petsystem/pagar/editar/6
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Library/WebSer...', 185)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Library/WebSer...', 185, Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Library/WebSer...', 185, Array)
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-25 13:36:55 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-25 13:38:04 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-25 13:38:29 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-25 13:38:50 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-25 13:39:06 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-25 13:39:27 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-25 13:39:36 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-25 13:39:53 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-25 13:50:26 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-25 13:50:32 Error: [MissingActionException] Action ClientesController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'assets',
+)
+Request URL: /petsystem/clientes/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-25 13:52:47 Error: [MissingActionException] Action PagarController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagarController',
+  'action' => 'assets',
+)
+Request URL: /petsystem/pagar/assets/img/avatar1.jpg
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-25 13:52:53 Error: [MissingActionException] Action PagarController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagarController',
+  'action' => 'assets',
+)
+Request URL: /petsystem/pagar/assets/img/avatar1.jpg
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-25 13:55:55 Error: [MissingControllerException] Controller class FinanceiroController could not be found.
+Exception Attributes: array (
+  'class' => 'FinanceiroController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/financeiro/pagar
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-25 13:55:58 Error: [MissingControllerException] Controller class FinanceiroController could not be found.
+Exception Attributes: array (
+  'class' => 'FinanceiroController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/financeiro/assets/img/avatar1.jpg
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-25 13:56:04 Error: [MissingControllerException] Controller class FinanceiroController could not be found.
+Exception Attributes: array (
+  'class' => 'FinanceiroController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/financeiro/assets/img/avatar1.jpg
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-25 17:46:46 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-25 17:47:48 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-25 17:54:27 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-25 17:54:30 Error: [MissingActionException] Action PagarController::dashboard() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagarController',
+  'action' => 'dashboard',
+)
+Request URL: /petsystem/pagar/dashboard
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-25 23:10:51 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-25 23:33:30 Error: [MissingControllerException] Controller class ReceberController could not be found.
+Exception Attributes: array (
+  'class' => 'ReceberController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/receber
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-25 23:33:34 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/img/avatar1.jpg
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-25 23:33:40 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/img/avatar1.jpg
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-25 23:35:48 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'contas_receber.descricao' in 'order clause'
+Request URL: /petsystem/receber
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Receber...', Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `Receber...', Array, Array)
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Receber...', true)
+#4 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Model.php(2902): DboSource->read(Object(Receber), Array)
+#5 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Model.php(2874): Model->_readDataSource('all', Array)
+#6 /Library/WebServer/Documents/petsystem/app/Controller/ReceberController.php(85): Model->find('all')
+#7 [internal function]: ReceberController->index()
+#8 /Library/WebServer/Documents/petsystem/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ReceberController), Array)
+#9 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ReceberController), Object(CakeRequest), Object(CakeResponse))
+#11 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-25 23:36:32 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-25 23:40:03 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-25 23:42:06 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value
+Request URL: /petsystem/receber/novo
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `pe...', Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `pe...')
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Model.php(1832): DboSource->create(Object(Receber), Array, Array)
+#4 /Library/WebServer/Documents/petsystem/app/Controller/ReceberController.php(37): Model->save(Array)
+#5 [internal function]: ReceberController->novo()
+#6 /Library/WebServer/Documents/petsystem/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ReceberController), Array)
+#7 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ReceberController), Object(CakeRequest), Object(CakeResponse))
+#9 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-04-25 23:44:53 Error: [PDOException] SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '04/2015' for column 'data_competencia' at row 1
+Request URL: /petsystem/receber/novo
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `pe...', Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `pe...')
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Model.php(1832): DboSource->create(Object(Receber), Array, Array)
+#4 /Library/WebServer/Documents/petsystem/app/Controller/ReceberController.php(37): Model->save(Array)
+#5 [internal function]: ReceberController->novo()
+#6 /Library/WebServer/Documents/petsystem/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ReceberController), Array)
+#7 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ReceberController), Object(CakeRequest), Object(CakeResponse))
+#9 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-04-25 23:46:16 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-25 23:48:33 Error: [PDOException] SQLSTATE[01000]: Warning: 1265 Data truncated for column 'valor' at row 1
+Request URL: /petsystem/receber/novo
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `pe...', Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `pe...')
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Model.php(1832): DboSource->create(Object(Receber), Array, Array)
+#4 /Library/WebServer/Documents/petsystem/app/Controller/ReceberController.php(37): Model->save(Array)
+#5 [internal function]: ReceberController->novo()
+#6 /Library/WebServer/Documents/petsystem/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ReceberController), Array)
+#7 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ReceberController), Object(CakeRequest), Object(CakeResponse))
+#9 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-04-25 23:51:36 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-25 23:52:12 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-25 23:52:32 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-25 23:54:23 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-25 23:56:28 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-26 00:03:52 Error: [PDOException] SQLSTATE[01000]: Warning: 1265 Data truncated for column 'valor' at row 1
+Request URL: /petsystem/receber/editar/4
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('UPDATE `petsyst...', Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/Database/Mysql.php(400): DboSource->execute('UPDATE `petsyst...')
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Model.php(1821): Mysql->update(Object(Receber), Array, Array)
+#4 /Library/WebServer/Documents/petsystem/app/Controller/ReceberController.php(58): Model->save(Array)
+#5 [internal function]: ReceberController->editar('4')
+#6 /Library/WebServer/Documents/petsystem/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ReceberController), Array)
+#7 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ReceberController), Object(CakeRequest), Object(CakeResponse))
+#9 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-04-26 00:04:58 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-26 00:06:48 Error: [PDOException] SQLSTATE[01000]: Warning: 1265 Data truncated for column 'valor' at row 1
+Request URL: /petsystem/receber/editar/4
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('UPDATE `petsyst...', Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/Database/Mysql.php(400): DboSource->execute('UPDATE `petsyst...')
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Model.php(1821): Mysql->update(Object(Receber), Array, Array)
+#4 /Library/WebServer/Documents/petsystem/app/Controller/ReceberController.php(58): Model->save(Array)
+#5 [internal function]: ReceberController->editar('4')
+#6 /Library/WebServer/Documents/petsystem/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ReceberController), Array)
+#7 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ReceberController), Object(CakeRequest), Object(CakeResponse))
+#9 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-04-26 00:07:10 Error: [PDOException] SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'data_competencia' at row 1
+Request URL: /petsystem/receber/editar/4
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('UPDATE `petsyst...', Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/Database/Mysql.php(400): DboSource->execute('UPDATE `petsyst...')
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Model.php(1821): Mysql->update(Object(Receber), Array, Array)
+#4 /Library/WebServer/Documents/petsystem/app/Controller/ReceberController.php(58): Model->save(Array)
+#5 [internal function]: ReceberController->editar('4')
+#6 /Library/WebServer/Documents/petsystem/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ReceberController), Array)
+#7 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ReceberController), Object(CakeRequest), Object(CakeResponse))
+#9 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-04-26 00:08:20 Error: [PDOException] SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'data_competencia' at row 1
+Request URL: /petsystem/receber/editar/4
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('UPDATE `petsyst...', Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/Database/Mysql.php(400): DboSource->execute('UPDATE `petsyst...')
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Model.php(1821): Mysql->update(Object(Receber), Array, Array)
+#4 /Library/WebServer/Documents/petsystem/app/Controller/ReceberController.php(58): Model->save(Array)
+#5 [internal function]: ReceberController->editar('4')
+#6 /Library/WebServer/Documents/petsystem/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ReceberController), Array)
+#7 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ReceberController), Object(CakeRequest), Object(CakeResponse))
+#9 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-04-26 00:08:49 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-26 00:10:25 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-26 00:11:24 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

@@ -24,7 +24,7 @@ $action_buttons .= "<button type='submit' class='btn blue'><i class='icon-ok'></
                 </li>
                 <li>
                     <i class="icon-dollar"></i>
-                    <?php echo $this->html->link('Pagar', 'javascript:;'); ?>
+                    <?php echo $this->html->link('Financeiro', 'javascript:;'); ?>
                     <i class="icon-angle-right"></i>
                 </li>
                 <li>
@@ -60,7 +60,7 @@ $action_buttons .= "<button type='submit' class='btn blue'><i class='icon-ok'></
                 <div class="form-body">
                     <!--<h3 class="form-section"><?php //echo __('Informações Básicas') ?></h3>-->
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-8">
                             <div class="form-group">
                                 <label class="control-label"><?php echo __('Descrição') ?></label>
                                 <?php echo $this->Form->input('descricao', array('label' => false, 'class' => 'form-control input-sm', 'placeholder' => 'Nome para o pagamento')); ?>
@@ -68,21 +68,20 @@ $action_buttons .= "<button type='submit' class='btn blue'><i class='icon-ok'></
                         </div>                                    
                     </div>
                     <div class="row">
-                        <div class="col-md-3">
+                        <div class="col-md-4">
                             <div class="form-group">
                                 <label class="control-label"><?php echo __('Categoria') ?></label>
                                 <?php
-                                $categorias = $this->requestAction('/auxiliares/categoriasFinanceiro');
-                                echo $this->Form->select('categoria_financeiro_id', $categorias, array('class' => 'form-control input-sm select2me', 'placeholder' => __('Selecione uma categoria')));
+                                echo $this->Form->select('categoria_financeiro_id', $listCategorias, array('class' => 'form-control input-sm select2me', 'placeholder' => __('Selecione uma categoria')));
                                 ?>
                             </div>
                         </div> 
 
-                        <div class="col-md-3">
+                        <div class="col-md-4">
                             <div class="form-group">
                                 <label class="control-label"><?php echo __('Banco') ?></label>
                                 <?php 
-                                echo $this->Form->select('banco_id', $conta_bancaria, array('class' => 'form-control input-sm select2me', 'placeholder' => __('Selecione uma conta')));                                
+                                echo $this->Form->select('banco_id', $listBancos, array('class' => 'form-control input-sm select2me', 'placeholder' => __('Selecione uma conta bancária')));                                
                                 ?>
                             </div>
                         </div>
@@ -93,7 +92,7 @@ $action_buttons .= "<button type='submit' class='btn blue'><i class='icon-ok'></
                             <div class="form-group">
                                 <label class="control-label"><?php echo __('Data Vencimento') ?></label>
                                 <div class="input-group input-medium date date-picker" data-date-format="dd/mm/yyyy" data-date-viewmode="years">
-                                <?php echo $this->Form->input('data_vencimento', array('type' => 'text', 'label' => false, 'class' => 'form-control', 'placeholder' => '15/07/2015', 'readonly')); ?>
+                                <?php echo $this->Form->input('data_vencimento', array('type' => 'text', 'label' => false, 'class' => 'form-control', 'placeholder' => '13/02/1964', 'readonly')); ?>
                                     <span class="input-group-btn">
                                         <button class="btn default" type="button"><i class="icon-calendar"></i></button>
                                     </span>
@@ -103,7 +102,7 @@ $action_buttons .= "<button type='submit' class='btn blue'><i class='icon-ok'></
                         <div class="col-md-2">
                             <div class="form-group">
                                 <label class="control-label"><?php echo __('Valor') ?></label>
-                                <?php echo $this->Form->input('valor', array('label' => false, 'class' => 'form-control input-sm', 'placeholder' => 'R$ 0,00 ')); ?>
+                                <?php echo $this->Form->input('valor', array('type' => 'text','label' => false, 'class' => 'form-control input-sm', 'placeholder' => 'R$ 0,00 ')); ?>
                             </div>
                         </div>
                     </div>
@@ -141,7 +140,7 @@ $action_buttons .= "<button type='submit' class='btn blue'><i class='icon-ok'></
                         <div class="col-md-2">
                             <div class="form-group">
                                 <label class="control-label"><?php echo __('Vezes') ?></label>
-                                <?php echo $this->Form->input('repeticoes', array('label' => false, 'class' => 'form-control input-sm', 'placeholder' => 'Número repetições')); ?>
+                                <?php echo $this->Form->input('repeticoes', array('type' => 'text', 'label' => false, 'class' => 'form-control input-sm', 'placeholder' => 'Número repetições')); ?>
                             </div>
                         </div>
                     </div>
@@ -161,9 +160,9 @@ $action_buttons .= "<button type='submit' class='btn blue'><i class='icon-ok'></
                         <div class="col-md-3">
                             <div class="form-group">
                                 <label class="control-label"><?php echo __('Data Pagamento') ?></label>
-                                <?php //echo $this->Form->input('data_pagamento', array('id' => 'mask_date', 'type' => 'text', 'label' => false, 'class' => 'form-control input-sm', 'placeholder' => '15/07/2015')); ?>
+                                <?php //echo $this->Form->input('data_pagamento', array('id' => 'mask_date', 'type' => 'text', 'label' => false, 'class' => 'form-control input-sm', 'placeholder' => '13/02/1964')); ?>
                                 <div class="input-group input-medium date date-picker" data-date-format="dd/mm/yyyy" data-date-viewmode="years">
-                                <?php echo $this->Form->input('data_pagamento', array('type' => 'text', 'label' => false, 'class' => 'form-control', 'placeholder' => '15/07/2015', 'readonly')); ?>
+                                <?php echo $this->Form->input('data_pagamento', array('type' => 'text', 'label' => false, 'class' => 'form-control', 'placeholder' => '13/02/1964', 'readonly')); ?>
                                     <span class="input-group-btn">
                                         <button class="btn default" type="button"><i class="icon-calendar"></i></button>
                                     </span>
@@ -173,21 +172,21 @@ $action_buttons .= "<button type='submit' class='btn blue'><i class='icon-ok'></
                         <div class="col-md-2">
                             <div class="form-group">
                                 <label class="control-label"><?php echo __('Desconto') ?></label>
-                                <?php echo $this->Form->input('desconto', array('label' => false, 'class' => 'form-control input-sm', 'placeholder' => 'R$ 0,00')); ?>
+                                <?php echo $this->Form->input('desconto', array('label' => false, 'type' => 'text','class' => 'form-control input-sm', 'placeholder' => 'R$ 0,00')); ?>
                             </div>
                         </div>
                         <div class="col-md-2">
                             <div class="form-group">
                                 <label class="control-label"><?php echo __('Juros') ?></label>
                                 <?php
-                                echo $this->Form->input('juros', array('label' => false, 'class' => 'form-control input-sm', 'placeholder' => 'R$ 0,00'));
+                                echo $this->Form->input('juros', array('label' => false, 'type' => 'text' ,'class' => 'form-control input-sm', 'placeholder' => 'R$ 0,00'));
                                 ?>
                             </div>
                         </div>
                         <div class="col-md-2">
                             <div class="form-group">
                                 <label class="control-label"><?php echo __('Valor') ?></label>
-                                <?php echo $this->Form->input('valor_pago', array('label' => false, 'class' => 'form-control input-sm', 'placeholder' => 'R$ 0,00 ')); ?>
+                                <?php echo $this->Form->input('valor_pago', array('label' => false, 'type' => 'text', 'class' => 'form-control input-sm', 'placeholder' => 'R$ 0,00 ')); ?>
                             </div>
                         </div>                                       
                     </div>
@@ -198,14 +197,15 @@ $action_buttons .= "<button type='submit' class='btn blue'><i class='icon-ok'></
                         <div class="col-md-5">
                             <div class="form-group">
                                 <label class="control-label"><?php echo __('Fornecedor') ?></label>
-                                <?php echo $this->Form->input('fornecedor_id', array('label' => false, 'class' => 'form-control input-sm select2me', 'placeholder' => 'Nome para o pagamento')); ?>
+                                <?php echo $this->Form->select('fornecedor_id', $listFornecedores, array('class' => 'form-control input-sm select2me', '    placeholder' => __('Selecione o fornecedor para o pagamento')));
+                                ?>
                             </div>
                         </div>       
                         <div class="col-md-3">
                             <div class="form-group">
-                                <label class="control-label"><?php echo __('Data Competência') ?></label>
-                                <div class="input-group input-medium date date-picker" data-date-format="dd/mm/yyyy" data-date-viewmode="years">                                            
-                                <?php echo $this->Form->input('data_competencia', array('type' => 'text', 'label' => false, 'class' => 'form-control', 'placeholder' => '15/07/2015','readonly')); ?>
+                                <label class="control-label"><?php echo __('Competência') ?></label>
+                                <div class="input-group input-medium date date-picker" data-date-format="mm/yyyy" data-date-viewmode="years">                                            
+                                <?php echo $this->Form->input('data_competencia', array('type' => 'text', 'label' => false, 'class' => 'form-control', 'placeholder' => '13/02/1964','readonly')); ?>
                                     <span class="input-group-btn">
                                         <button class="btn default" type="button"><i class="icon-calendar"></i></button>
                                     </span>

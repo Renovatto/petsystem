@@ -1,129 +1,88 @@
-
 <?php
-
-/**
- * Controller
- *
- * @author Andre Renovato <andre.renovatto@uol.com.br>
- * @since Version 1.0 - 27/04/2014
- */
-class FinanceiroController extends AppController {
-    public $name = 'Financeiro';
-    public $uses = array('Contas_pagar','Contas_receber');
+class ReceberController extends AppController {
+    /***********************************
+     * @author Andre Renovato
+     * @since Version 1.0 - 27/04/2015
+     ***********************************/
+    public $uses = array('Receber');
     public $helpers = array('CakePtbr.Formatacao');
 
-    public function index() {
-
+    public function icons() {
+        return $this->redirect(array('action' => 'index'));
     }
 
-    public function pagar() {
+   private function setListas() {
+        $this->loadModel('Categoria_Financeiro');
+        $categorias = $this->Categoria_Financeiro->find('list', array('fields' => 'id,descricao','conditions' => array('ativo' => '1')));
+        $this->set('listCategorias', $categorias);        
+
+        $this->loadModel('Banco');
+        $bancos = $this->Banco->find('list', array('fields' => 'id,descricao','conditions' => array('ativo' => '1')));
+        $this->set('listBancos', $bancos);
+
+        $this->loadModel('Cliente');
+        $clientes = $this->Cliente->find('list', array('fields' => 'id,nome','conditions' => array('ativo' => '1')));
+        $this->set('listClientes', $clientes);
+    }
+
+    public function novo() {
+       //setando dados dos campos selects
+        $this->setListas();
         if ($this->request->isPost()) {
-            //echo "<pre>";
-            //print_r($_POST);
-            //echo "</pre>";
-            
-            $this->Contas_pagar->create(); //gera um novo id para tabela contas a pagar
-            if ($this->Contas_pagar->save($this->request->data)) {
+            /*echo "<pre>";
+            print_r($_POST);
+            echo "</pre>";*/
+            //die;
+            $this->Receber->create(); //gera um novo id para tabela cliente
+            if ($this->Receber->save($this->request->data)) {
                 $this->Session->setFlash('', 'alert_success');
                 return $this->redirect(array('action' => 'index'));
             }
             $this->Session->setFlash('', 'alert_warning');
-        }        
+        }
     }
 
-    public function receber() {
-        if ($this->request->isPost()) {
-            $this->Contas_receber->create(); //gera um novo id para tabela financeiro
-            if ($this->Contas_receber->save($this->request->data)) {
+    public function editar($id = null) {
+       //setando dados dos campos selects
+        $this->setListas();
+        $pagamento = $this->Receber->findById($id);
+
+        if (!$pagamento) {
+            $this->Session->setFlash(__('Recebimento não encontrado'), 'alert_error');
+            return $this->redirect(array('action' => 'index'));
+        }
+
+        $this->Receber->id = $id;
+
+        if ($this->request->data) {    
+            if ($this->Receber->save($this->request->data)) {
+                // Salvo com sucesso
                 $this->Session->setFlash('', 'alert_success');
-                return $this->redirect(array('action' => 'listar'));
+                return $this->redirect(array('action' => 'index'));
+            } else {
+                $this->Session->setFlash('Não foi possivel atualizar os dados', 'alert_error');
             }
-            $this->Session->setFlash('', 'alert_warning');
-        }        
+        } else {
+            $this->request->data = $this->Receber->read();
+        }
+    }
+
+    public function dashboard() {
+
+    }
+
+    public function index() {
+        $params = array(
+            'conditions' => array(
+                'Receber.ativo' => 1
+            ),
+            'order' => array('Receber.descricao')
+        );
+
+
+        //$listcontasreceber = $this->Receber->find('all', $params);
+        $listcontasreceber = $this->Receber->find('all');
+        $this->set('listcontasreceber', $listcontasreceber);
     }    
-
-    public function receber_editar() {
-        $receber = $this->Contas_receber->findById($id);
-
-        if (!$receber) {
-            $this->Session->setFlash(__('Cliente não encontrado'), 'warning_error');
-            return $this->redirect(array('action' => 'listar'));
-        }
-
-        if (is_array($receber['Pet']) && count($receber['Pet']) > 0) {
-            foreach ($receber['Pet'] as $key => $dadosPet) {
-                if (!empty($dadosPet['raca_id']) && $dadosPet['raca_id'] > 0) {
-                    $this->loadModel('Raca');
-                    $desc_raca = $this->Raca->find('first', array('fields' => array('Raca.descricao'), 'conditions' => array('Raca.id' => $dadosPet['raca_id'])));
-
-                    if (!empty($desc_raca['Raca']['descricao'])) {
-                        $receber['Pet'][$key]['raca'] = $desc_raca['Raca']['descricao'];
-                    }
-                }
-            }
-        }
-
-        //Debugger::log($receber);
-
-        $this->Cliente->id = $id;
-        if ($this->request->isPost()) {
-            if ($this->Cliente->save($this->request->data)) {
-                // Salvo com sucesso
-                $this->Session->setFlash('', 'alert_success');
-                return $this->redirect(array('action' => 'listar'));
-            } else {
-                $this->Session->setFlash('', 'alert_error');
-            }
-        } else {
-            //$this->request->data = $this->Cliente->read();
-            $this->request->data = $cliente;
-        }
-    }
-
-    public function pagar_editar() {
-        $pagar = $this->Contas_pagar->findById($id);
-
-        if (!$pagar) {
-            $this->Session->setFlash(__('Cliente não encontrado'), 'warning_error');
-            return $this->redirect(array('action' => 'listar'));
-        }
-
-        if (is_array($pagar['Pet']) && count($pagar['Pet']) > 0) {
-            foreach ($pagar['Pet'] as $key => $dadosPet) {
-                if (!empty($dadosPet['raca_id']) && $dadosPet['raca_id'] > 0) {
-                    $this->loadModel('Raca');
-                    $desc_raca = $this->Raca->find('first', array('fields' => array('Raca.descricao'), 'conditions' => array('Raca.id' => $dadosPet['raca_id'])));
-
-                    if (!empty($desc_raca['Raca']['descricao'])) {
-                        $pagar['Pet'][$key]['raca'] = $desc_raca['Raca']['descricao'];
-                    }
-                }
-            }
-        }
-
-        //Debugger::log($cliente);
-
-        $this->Contas_pagar->id = $id;
-        if ($this->request->isPost()) {
-            if ($this->Contas_pagar->save($this->request->data)) {
-                // Salvo com sucesso
-                $this->Session->setFlash('', 'alert_success');
-                return $this->redirect(array('action' => 'listar'));
-            } else {
-                $this->Session->setFlash('', 'alert_error');
-            }
-        } else {
-            //$this->request->data = $this->Cliente->read();
-            $this->request->data = $pagar;
-        }
-    }
-
-    public function listar() {
-
-    }
-
-    public function delete() {
-
-    }
 
 }

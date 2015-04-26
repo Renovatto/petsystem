@@ -4,7 +4,7 @@
         <div class="col-md-12">
             <!-- BEGIN PAGE TITLE & BREADCRUMB-->
             <h3 class="page-title">
-                Contas a Pagar <small>visão geral das contas a pagar</small>
+                Contas a Receber <small>visão geral das contas a receber</small>
             </h3>
             <ul class="page-breadcrumb breadcrumb">
                 <li>
@@ -13,13 +13,13 @@
                     <i class="icon-angle-right"></i>
                 </li>
                 <li>
-                    <i class="icon-group"></i>
+                    <i class="icon-dollar"></i>
                     <?php echo $this->html->link('Financeiro', 'javascript:;'); ?>
                     <i class="icon-angle-right"></i>
                 </li>
                 <li>
                     <i class=""></i>
-                    <?php echo $this->html->link('Contas a Pagar', '/clientes/listar'); ?>
+                    <?php echo $this->html->link('Contas a Receber', '/receber'); ?>
                 </li>
 
             </ul>
@@ -34,7 +34,7 @@
         <!-- BEGIN EXAMPLE TABLE PORTLET-->
         <div class="portlet box light-grey">
             <div class="portlet-title">
-                <div class="caption"><i class="icon-list-alt"></i>Todos os Pagamentos</div>
+                <div class="caption"><i class="icon-list-alt"></i>Todos os Recebimentos</div>
                 <div class="tools">
                     <a href="javascript:;" class="collapse"></a>
                 </div>
@@ -44,7 +44,7 @@
                     <div class="btn-group">
                         <a href="<?php echo $this->Html->url('novo'); ?>">
                             <button id="sample_editable_1_new" class="btn green">
-                                Novo Pagamento &nbsp;<i class="icon-plus"></i>
+                                Novo Recebimento &nbsp;<i class="icon-plus"></i>
                             </button>
                         </a>
                     </div>
@@ -72,13 +72,13 @@
                     </thead>
                     <tbody>
                         <?php
-                        if ($listcontaspagar && count($listcontaspagar) > 0) {
+                        if ($listcontasreceber && count($listcontasreceber) > 0) {
                             //echo "<pre>";
-                            //print_r($listcontaspagar);
+                            //print_r($listcontasreceber);
 
                             $dataAtual = date('Y-m-d');
-                            foreach ($listcontaspagar as $key => $model) {
-                                $dadosPagamento = $model['Pagar'];
+                            foreach ($listcontasreceber as $key => $model) {
+                                $dadosPagamento = $model['Receber'];
                                 $nome_categoria = $model['categoria_financeiro']['descricao'];
                                 $banco = $model['banco']['descricao'];
                                 ?>
@@ -91,8 +91,8 @@
                                     <td class="center"><?php echo $this->Formatacao->moeda($dadosPagamento['valor']) ?></td>                                
                                     <td style="text-align:center">
                                         <?php
-                                        if ($dadosPagamento['pago']) {                                            
-                                            echo "<span class ='label label-sm label-success'>&nbsp;&nbsp;&nbsp;Pago&nbsp;&nbsp;&nbsp;</span></td>";
+                                        if ($dadosPagamento['recebido']) {                                            
+                                            echo "<span class ='label label-sm label-success'>&nbsp;&nbsp;&nbsp;Recebido&nbsp;&nbsp;&nbsp;</span></td>";
                                         } else {                                            
                                             if(strtotime($dataAtual) == strtotime($dadosPagamento['data_vencimento'])){
                                                 echo "<span class ='label label-sm label-info'>&nbsp;&nbsp;&nbsp;Hoje&nbsp;&nbsp;&nbsp;</span></td>";
