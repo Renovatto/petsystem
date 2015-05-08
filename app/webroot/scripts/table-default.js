@@ -12,11 +12,11 @@ var TableDefault = function() {
                         "bSortable": false,
                         "aTargets": [0, -1]
                     }],
-                "aLengthMenu": [[5, 10, 20, -1], [5, 10, 20, "Todos"]],
-                "iDisplayLength": 5, //aLengthMenu padrao, sempre sera listado como padrao 10 registros
+                "aLengthMenu": [[10, 20, 30, 50, -1], [10, 20, 30, 50, "Todos"]],
+                "iDisplayLength": 20, //aLengthMenu padrao, sempre sera listado como padrao 20 registros
                 "oLanguage": {
                     "sLengthMenu": "_MENU_ Registros por página",
-                    "sZeroRecords": "Não foram encontrados registros",
+                    "sZeroRecords": "Não existem registros",
                     "sInfo": "Mostrando _START_ a _END_ de _TOTAL_ registros",
                     "sInfoEmpty": "Mostrando 0 to 0 de 0 registros",
                     "sSearch": "Pesquisar:",

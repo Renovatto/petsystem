@@ -3,7 +3,7 @@
 class Receber extends AppModel {
 
     public $useTable = 'contas_receber';
-    //public $order = array('contas_receber.descricao' => 'ASC');
+    public $order = array('Receber.data_vencimento' => 'DESC');
     public $cacheQueries = true;
     //Relacionamentos - Join
     public $belongsTo = array('categoria_financeiro' => array(

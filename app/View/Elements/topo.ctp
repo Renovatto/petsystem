@@ -14,8 +14,14 @@
             'data-toggle' => 'collapse',
             'data-target' => '.navbar-collapse')
         );
-
         //FIM RESPONSIVE MENU TOGGLER
+        
+        //DEFINICAO DO ICONE FAVIICON
+        echo $this->Html->meta(
+            'favicon.ico',
+            '/favicon.ico',
+            array('type' => 'icon'));       
+        
         ?>
 
         <ul class="nav navbar-nav pull-right">

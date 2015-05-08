@@ -49,7 +49,7 @@ class PagarController extends AppController {
 
         if (!$pagamento) {
             $this->Session->setFlash(__('Pagamento não encontrado'), 'alert_error');
-            return $this->redirect(array('action' => 'listar'));
+            return $this->redirect(array('action' => 'index'));
         }
 
         $this->Pagar->id = $id;
@@ -58,7 +58,7 @@ class PagarController extends AppController {
             if ($this->Pagar->save($this->request->data)) {
                 // Salvo com sucesso
                 $this->Session->setFlash('', 'alert_success');
-                return $this->redirect(array('action' => 'listar'));
+                return $this->redirect(array('action' => 'index'));
             } else {
                 $this->Session->setFlash('Não foi possivel atualizar os dados', 'alert_error');
             }
@@ -73,37 +73,16 @@ class PagarController extends AppController {
     }
 
     public function index() {
-        
-    }
-    
-    public function listar($filtros = null) {
-        //mktime(hora, min., seg., mês, dia, ano);
-        $data_atual = date('Y-m-d'); //data atual
-        $data_final = date('Y-m-d', mktime(0, 0, 0, date('m'), date('d') + 30, date('Y'))); //proximo mes        
-                
-        switch ($filtros) {
-            case 'all':
-                $params['conditions'] = array('Pagar.ativo' => 1);
-                break;
-            case 'hoje':
-                $params['conditions'] = array('Pagar.ativo' => 1, 'Pagar.pago' => 0, 'Pagar.data_vencimento =' => $data_atual);
-                break;
-            case 'pendentes':
-                $params['conditions'] = array('Pagar.ativo' => 1, 'Pagar.pago' => 0, 'Pagar.data_vencimento >' => $data_atual);
-                break;
-            case 'atrasados':
-                $params['conditions'] = array('Pagar.ativo' => 1, 'Pagar.pago' => 0, 'Pagar.data_vencimento <' => $data_atual);
-                break;
-            case 'pagos':
-                $params['conditions'] = array('Pagar.ativo' => 1, 'Pagar.pago' => 1);
-                $params['order'] = array('Pagar.data_pagamento' => 'DESC');
-                break;
-            default :
-                $params = array('conditions' => array('Pagar.ativo' => 1,'Pagar.pago' => 0));
-                break;
-        }
+        $params = array(
+            'conditions' => array(
+                'Pagar.ativo' => 1
+            ),
+            'order' => array('Pagar.descricao')
+        );
 
-        $listcontaspagar = $this->Pagar->find('all', $params);
+
+        //$listcontaspagar = $this->Pagar->find('all', $params);
+        $listcontaspagar = $this->Pagar->find('all');
         $this->set('listcontaspagar', $listcontaspagar);
     }    
 

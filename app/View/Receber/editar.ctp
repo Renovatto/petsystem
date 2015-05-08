@@ -29,7 +29,7 @@ $action_buttons .= "<button type='submit' class='btn blue'><i class='icon-ok'></
                 </li>
                 <li>
                     <i class=""></i>
-                    <?php echo $this->html->link('Contas a Receber', '/receber'); ?>
+                    <?php echo $this->html->link('Contas a Receber', '/receber/listar'); ?>
                     <i class="icon-angle-right"></i>
                 </li>
                 <li><?php echo $this->html->link('Editar', 'javascript:;'); ?></li>
@@ -40,11 +40,11 @@ $action_buttons .= "<button type='submit' class='btn blue'><i class='icon-ok'></
     </div>
 
     <div class="col-md-12">
-        <div class="portlet box light-grey">
+        <div class="portlet box green">
             <div class="portlet-title">
                 <div class="caption">
-                    <i class="icon-ok"></i>
-                    Novo Recebimento
+                    <i class="icon-download-alt"></i>
+                    Editar Recebimento
                 </div>
                 <!-- Setinha para recolher form -->
                 <?php echo $this->Html->div('tools', $this->html->link('', 'javascript:;', array('class' => 'collapse'))); ?>
@@ -250,14 +250,12 @@ $action_buttons .= "<button type='submit' class='btn blue'><i class='icon-ok'></
                             </div>
                         </div>                                                                               
                     </div>
-
-                    <!--/row-->
-                    <div class="form-actions left">
-                        <?php echo $action_buttons; ?>
-                    </div>
                     <?php echo $this->Form->end(); ?>
                     <!-- END FORM-->
                 </div>
+                <div class="form-actions left">
+                    <?php echo $action_buttons; ?>
+                </div>                
             </div>
         </div>           
     </div>

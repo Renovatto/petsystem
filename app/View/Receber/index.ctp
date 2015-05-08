@@ -4,9 +4,22 @@
         <div class="col-md-12">
             <!-- BEGIN PAGE TITLE & BREADCRUMB-->
             <h3 class="page-title">
-                Contas a Receber <small>visão geral das contas a receber</small>
+                Contas a Receber <small>visão geral de contas a receber</small>
             </h3>
             <ul class="page-breadcrumb breadcrumb">
+                <li class="btn-group">
+                   <button type="button" class="btn blue dropdown-toggle" data-toggle="dropdown" data-hover="" data-delay="1000" data-close-others="true">
+                   <span>Filtros</span> <i class="icon-angle-down"></i>
+                   </button>
+                   <ul class="dropdown-menu pull-right" role="menu">
+                      <li><a href="#">Hoje</a></li>
+                      <li><a href="#">Pendentes</a></li>
+                      <li><a href="#">Atrasados</a></li>
+                      <li><a href="#">Recebidos</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#">Limpar Filtros</a></li>
+                   </ul>
+                </li>                
                 <li>
                     <i class="icon-home"></i>
                     <?php echo $this->html->link('Home', '/'); ?>
@@ -32,9 +45,9 @@
     <div class="row">
     <div class="col-md-12">
         <!-- BEGIN EXAMPLE TABLE PORTLET-->
-        <div class="portlet box light-grey">
+        <div class="portlet box green">
             <div class="portlet-title">
-                <div class="caption"><i class="icon-list-alt"></i>Todos os Recebimentos</div>
+                <div class="caption"><i class="icon-download-alt"></i>Todos os Recebimentos</div>
                 <div class="tools">
                     <a href="javascript:;" class="collapse"></a>
                 </div>
@@ -136,25 +149,3 @@
         FormComponents.init();
     });
 </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

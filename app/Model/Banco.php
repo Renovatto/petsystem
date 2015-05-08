@@ -2,7 +2,7 @@
 
 class Banco extends AppModel {
 
-    public $useTable = 'Bancos';
+    public $useTable = 'bancos';
     public $order = array('id');
     public $cacheQueries = true;
 

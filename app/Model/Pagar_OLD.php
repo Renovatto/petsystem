@@ -3,7 +3,7 @@
 class Pagar extends AppModel {
 
     public $useTable = 'contas_pagar';
-    public $order = array('Pagar.data_vencimento' => 'DESC');
+    //public $order = array('contas_pagar.descricao' => 'ASC');
     public $cacheQueries = true;
     //Relacionamentos - Join
     public $belongsTo = array('categoria_financeiro' => array(

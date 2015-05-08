@@ -40,11 +40,11 @@ $action_buttons .= "<button type='submit' class='btn blue'><i class='icon-ok'></
     </div>
 
     <div class="col-md-12">
-        <div class="portlet box light-grey">
+        <div class="portlet box yellow">
             <div class="portlet-title">
                 <div class="caption">
-                    <i class="icon-ok"></i>
-                    Novo Pagamento
+                    <i class="icon-upload-alt"></i>
+                    Editar Pagamento
                 </div>
                 <!-- Setinha para recolher form -->
                 <?php echo $this->Html->div('tools', $this->html->link('', 'javascript:;', array('class' => 'collapse'))); ?>
@@ -252,13 +252,12 @@ $action_buttons .= "<button type='submit' class='btn blue'><i class='icon-ok'></
                         </div>                                                                               
                     </div>
 
-                    <!--/row-->
-                    <div class="form-actions left">
-                        <?php echo $action_buttons; ?>
-                    </div>
                     <?php echo $this->Form->end(); ?>
                     <!-- END FORM-->
                 </div>
+                <div class="form-actions bottom left">
+                    <?php echo $action_buttons; ?>
+                </div>                
             </div>
         </div>           
     </div>
