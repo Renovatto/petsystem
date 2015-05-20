@@ -6416,3 +6416,247 @@ Stack Trace:
 #1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
 #2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2015-05-11 20:26:10 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/img/avatar1.jpg
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-11 20:26:16 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/img/avatar1.jpg
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-11 20:43:48 Error: [MissingControllerException] Controller class FornecedoresController could not be found.
+Exception Attributes: array (
+  'class' => 'FornecedoresController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/fornecedores
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-11 20:50:50 Error: [MissingActionException] Action PagarController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagarController',
+  'action' => 'assets',
+)
+Request URL: /petsystem/pagar/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-11 21:06:09 Error: [MissingActionException] Action ClientesController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'assets',
+)
+Request URL: /petsystem/clientes/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-11 21:08:06 Error: [MissingActionException] Action ClientesController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'assets',
+)
+Request URL: /petsystem/clientes/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-12 22:54:22 Error: [MissingActionException] Action PagarController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagarController',
+  'action' => 'assets',
+)
+Request URL: /petsystem/pagar/assets/plugins/bootstrap-wysihtml5/wysiwyg-color.css
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagarController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-13 23:43:52 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2006] MySQL server has gone away',
+  'enabled' => true,
+)
+Request URL: /petsystem/dashboards/financeiro
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Model.php(3476): ConnectionManager::getDataSource('default')
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Model.php(1126): Model->setDataSource('default')
+#4 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Model.php(3498): Model->setSource('contas_pagar')
+#5 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Model.php(1355): Model->getDataSource()
+#6 /Library/WebServer/Documents/petsystem/app/Plugin/CakePtbr/Model/Behavior/AjusteDataBehavior.php(113): Model->schema()
+#7 /Library/WebServer/Documents/petsystem/app/Plugin/CakePtbr/Model/Behavior/AjusteDataBehavior.php(39): AjusteDataBehavior->_buscaCamposDate(Object(Pagar))
+#8 /Library/WebServer/Documents/petsystem/lib/Cake/Model/BehaviorCollection.php(145): AjusteDataBehavior->setup(Object(Pagar), Array)
+#9 /Library/WebServer/Documents/petsystem/lib/Cake/Model/BehaviorCollection.php(66): BehaviorCollection->load('CakePtbr.Ajuste...', Array)
+#10 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Model.php(747): BehaviorCollection->init('Pagar', Array)
+#11 [internal function]: Model->__construct(Array)
+#12 /Library/WebServer/Documents/petsystem/lib/Cake/Utility/ClassRegistry.php(168): ReflectionClass->newInstance(Array)
+#13 /Library/WebServer/Documents/petsystem/lib/Cake/Controller/Controller.php(738): ClassRegistry::init(Array)
+#14 /Library/WebServer/Documents/petsystem/app/Controller/DashboardsController.php(18): Controller->loadModel('Pagar')
+#15 [internal function]: DashboardsController->financeiro()
+#16 /Library/WebServer/Documents/petsystem/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DashboardsController), Array)
+#17 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#18 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(DashboardsController), Object(CakeRequest), Object(CakeResponse))
+#19 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2015-05-19 22:04:26 Error: [MissingViewException] View file "/Library/WebServer/Documents/petsystem/app/View/Alunos/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Library/WebServer/Documents/petsystem/app/View/Alunos/index.ctp',
+)
+Request URL: /petsystem/alunos
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AlunosController), Object(CakeRequest), Object(CakeResponse))
+#4 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-19 22:04:51 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2006] MySQL server has gone away',
+  'enabled' => true,
+)
+Request URL: /petsystem/alunos/index
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Model.php(3476): ConnectionManager::getDataSource('default')
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Model.php(1126): Model->setDataSource('default')
+#4 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Model.php(3498): Model->setSource('alunos')
+#5 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Model.php(2902): Model->getDataSource()
+#6 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Model.php(2874): Model->_readDataSource('all', Array)
+#7 /Library/WebServer/Documents/petsystem/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#8 /Library/WebServer/Documents/petsystem/app/Controller/AlunosController.php(32): PaginatorComponent->paginate()
+#9 [internal function]: AlunosController->index()
+#10 /Library/WebServer/Documents/petsystem/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(AlunosController), Array)
+#11 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AlunosController), Object(CakeRequest), Object(CakeResponse))
+#13 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-05-19 22:05:05 Error: [MissingActionException] Action AlunosController::new() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlunosController',
+  'action' => 'new',
+)
+Request URL: /petsystem/alunos/new
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AlunosController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-19 22:10:01 Error: [PrivateActionException] Private Action AlunosController::admin_add() is not directly accessible.
+Exception Attributes: array (
+  'controller' => 'AlunosController',
+  'action' => 'admin_add',
+)
+Request URL: /petsystem/alunos/admin_add
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AlunosController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-19 22:10:24 Error: [MissingActionException] Action AlunosController::admin() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlunosController',
+  'action' => 'admin',
+)
+Request URL: /petsystem/alunos/admin/admin_add
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AlunosController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-19 22:10:37 Error: [MissingActionException] Action AlunosController::admin() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlunosController',
+  'action' => 'admin',
+)
+Request URL: /petsystem/alunos/admin/add
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AlunosController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-19 22:11:17 Error: [PrivateActionException] Private Action AlunosController::admin_view() is not directly accessible.
+Exception Attributes: array (
+  'controller' => 'AlunosController',
+  'action' => 'admin_view',
+)
+Request URL: /petsystem/alunos/admin_view
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AlunosController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-19 22:12:18 Error: [MissingActionException] Action AlunosController::admin_admin_view() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlunosController',
+  'action' => 'admin_admin_view',
+)
+Request URL: /petsystem/admin/alunos/admin_view
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AlunosController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-19 22:12:35 Error: [NotFoundException] Invalid aluno
+Request URL: /petsystem/admin/alunos/view
+Stack Trace:
+#0 [internal function]: AlunosController->admin_view()
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(AlunosController), Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AlunosController), Object(CakeRequest), Object(CakeResponse))
+#4 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-19 22:12:44 Error: [MissingActionException] Action AlunosController::admin_new() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlunosController',
+  'action' => 'admin_new',
+)
+Request URL: /petsystem/admin/alunos/new
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AlunosController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-19 22:31:30 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2006] MySQL server has gone away',
+  'enabled' => true,
+)
+Request URL: /petsystem/alunos/
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Model.php(3476): ConnectionManager::getDataSource('default')
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Model.php(1126): Model->setDataSource('default')
+#4 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Model.php(3498): Model->setSource('alunos')
+#5 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Model.php(2902): Model->getDataSource()
+#6 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Model.php(2874): Model->_readDataSource('all', Array)
+#7 /Library/WebServer/Documents/petsystem/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#8 /Library/WebServer/Documents/petsystem/app/Controller/AlunosController.php(32): PaginatorComponent->paginate()
+#9 [internal function]: AlunosController->index()
+#10 /Library/WebServer/Documents/petsystem/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(AlunosController), Array)
+#11 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AlunosController), Object(CakeRequest), Object(CakeResponse))
+#13 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}

@@ -7,11 +7,14 @@
             <file>file:/Library/WebServer/Documents/petsystem/app/Model/Receber.php</file>
             <file>file:/Library/WebServer/Documents/petsystem/app/View/Pagar/listar.ctp</file>
             <file>file:/Library/WebServer/Documents/petsystem/app/View/Receber/listar.ctp</file>
+            <file>file:/Library/WebServer/Documents/petsystem/app/View/Receber/novo.ctp</file>
             <file>file:/Library/WebServer/Documents/petsystem/app/View/Dashboards/financeiro.ctp</file>
+            <file>file:/Library/WebServer/Documents/petsystem/app/View/Pagar/novo.ctp</file>
             <file>file:/Library/WebServer/Documents/petsystem/app/tmp/logs/debug.log</file>
-            <file>file:/Library/WebServer/Documents/petsystem/app/View/Receber/index.ctp</file>
             <file>file:/Library/WebServer/Documents/petsystem/app/Controller/DashboardsController.php</file>
             <file>file:/Library/WebServer/Documents/petsystem/app/Controller/PagarController.php</file>
+            <file>file:/Library/WebServer/Documents/petsystem/app/View/Pagar/editar.ctp</file>
+            <file>file:/Library/WebServer/Documents/petsystem/app/View/Receber/editar.ctp</file>
         </group>
     </open-files>
 </project-private>
