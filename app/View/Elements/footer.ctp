@@ -1,7 +1,7 @@
 <!-- BEGIN FOOTER -->
 <div class="footer">
     <div class="footer-inner">
-        2014 &copy; PetSystem by renovas. CakePHP <?php
+        2015 &copy; PetSystem by renovas. CakePHP <?php
         echo Configure::version();
         ?>
     </div>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
-<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
-<!--[if !IE]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<!--[if IE 8]> <html lang="pt-BR" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="pt-BR" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!--> <html lang="pt-BR" class="no-js"> <!--<![endif]-->
     <!-- BEGIN HEAD -->
     <head>
         <title>Metronic | Admin Dashboard Template</title>
@@ -35,7 +35,7 @@
 </html>
 
 <script>
-    jQuery(document).ready(function() {
+    jQuery(document).ready(function () {
         App.init(); // initlayout and core plugins
         Index.init();
         Index.initJQVMAP(); // init index page's custom scripts

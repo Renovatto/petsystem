@@ -1,6 +1,7 @@
 <?php
 
-$scripts = array('/plugins/jquery-1.10.2.min.js',
+$scripts = array(
+    '/plugins/jquery-1.10.2.min.js',
     '/plugins/jquery-migrate-1.2.1.min.js',
     //Carregar jquery-ui-1.10.3.custom.min.js antes bootstrap.min.js para corrigir conflito.
     //Dica: jquery ui
@@ -66,7 +67,10 @@ $scripts = array('/plugins/jquery-1.10.2.min.js',
     '/plugins/fuelux/js/spinner.min.js',
     '/plugins/bootstrap-wysihtml5/wysihtml5-0.3.0.js',
     '/plugins/bootstrap-wysihtml5/bootstrap-wysihtml5.js',
-    '/plugins/bootstrap-maxlength/bootstrap-maxlength.min.js'
+    '/plugins/bootstrap-maxlength/bootstrap-maxlength.min.js',
+    '/plugins/bootstrap-fileupload/bootstrap-fileupload.js',
+    '/plugins/jquery-validation/dist/jquery.validate.min.js',
+    '/plugins/jquery-validation/localization/messages_pt_BR.js'
 );
 
 

@@ -524,10 +524,10 @@ var FormComponents = function() {
             "placeholder": "dd/mm/yyyy"
         }); //multi-char placeholder
         $("#mask_phone").inputmask("mask", {
-            "mask": "(999) 99999-9999"
+            "mask": "(99) 999999999"
         }); //specifying fn & options
         $(".mask_phone").inputmask("mask", {
-            "mask": "(999) 99999-9999"
+            "mask": "(99) 999999999"
         }); //specifying fn & options
         $("#mask_tin").inputmask({
             "mask": "99-9999999"
@@ -541,6 +541,12 @@ var FormComponents = function() {
             "mask": "9",
             "repeat": 10,
             "greedy": false
+        }); // ~ mask "9" or mask "99" or ... mask "9999999999"
+        $(".numer_11").inputmask({
+            "mask": "99999999999"
+        }); // ~ mask "9" or mask "99" or ... mask "9999999999"
+        $("#numer_11").inputmask({
+            "mask": "99999999999"
         }); // ~ mask "9" or mask "99" or ... mask "9999999999"
         $("#mask_decimal").inputmask('decimal', {
             rightAlignNumerics: false

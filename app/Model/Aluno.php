@@ -1,33 +1,14 @@
 <?php
+
 App::uses('AppModel', 'Model');
+
 /**
  * Aluno Model
  *
  */
 class Aluno extends AppModel {
 
-/**
- * Display field
- *
- * @var string
- */
-	public $displayField = 'nome';
+    public $useTable = 'alunos';
+    public $actsAs = array('CakePtbr.AjusteData');
 
-/**
- * Validation rules
- *
- * @var array
- */
-	public $validate = array(
-		'nome' => array(
-			'alphaNumeric' => array(
-				'rule' => array('alphaNumeric'),
-				//'message' => 'Your custom message here',
-				//'allowEmpty' => false,
-				//'required' => false,
-				//'last' => false, // Stop validation after this rule
-				//'on' => 'create', // Limit validation to 'create' or 'update' operations
-			),
-		),
-	);
 }

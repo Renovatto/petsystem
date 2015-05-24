@@ -64,7 +64,8 @@ class DATABASE_CONFIG {
     public $default = array(
         'datasource' => 'Database/Mysql',
         'persistent' => false,
-        'host' => '192.155.84.34',
+        //'host' => '192.155.84.34',
+        'host' => 'localhost',
         'login' => 'root',
         'password' => 'host8899',
         'database' => 'petsystem',
