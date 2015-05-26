@@ -13524,3 +13524,74 @@ Stack Trace:
 #1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AlunosController), Object(CakeRequest), Object(CakeResponse))
 #2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2015-05-25 21:39:46 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/img/avatar1.jpg
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-25 21:39:52 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/assets/img/avatar1.jpg
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-25 21:55:36 Error: Fatal Error (1): Call to a member function create() on a non-object in [/Library/WebServer/Documents/petsystem/app/Controller/AlunosController.php, line 53]
+2015-05-25 21:55:36 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /petsystem/alunos/novo
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Library/WebSer...', 53)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Library/WebSer...', 53, Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Library/WebSer...', 53, Array)
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-25 22:21:09 Error: [MissingControllerException] Controller class AlunosController could not be found.
+Exception Attributes: array (
+  'class' => 'AlunosController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/alunos/novo
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-25 22:22:33 Error: [MissingControllerException] Controller class AlunosController could not be found.
+Exception Attributes: array (
+  'class' => 'AlunosController',
+  'plugin' => NULL,
+)
+Request URL: /petsystem/alunos/novo
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-25 22:45:44 Error: [MissingActionException] Action AlunosController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlunosController',
+  'action' => 'assets',
+)
+Request URL: /petsystem/alunos/assets/img/avatar1.jpg
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AlunosController), Object(CakeRequest), Object(CakeResponse))
+#2 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-25 22:48:24 Error: [PDOException] SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '26/05/2015' for column 'aniversario' at row 1
+Request URL: /petsystem/alunos/novo
+Stack Trace:
+#0 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `pe...', Array)
+#2 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `pe...')
+#3 /Library/WebServer/Documents/petsystem/lib/Cake/Model/Model.php(1832): DboSource->create(Object(Aluno), Array, Array)
+#4 /Library/WebServer/Documents/petsystem/app/Controller/AlunosController.php(18): Model->save(Array)
+#5 [internal function]: AlunosController->novo()
+#6 /Library/WebServer/Documents/petsystem/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(AlunosController), Array)
+#7 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /Library/WebServer/Documents/petsystem/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AlunosController), Object(CakeRequest), Object(CakeResponse))
+#9 /Library/WebServer/Documents/petsystem/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}

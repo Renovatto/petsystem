@@ -13,7 +13,7 @@ var FormWizard = function () {
                 return "<img class='flag' src='assets/img/flags/" + state.id.toLowerCase() + ".png'/>&nbsp;&nbsp;" + state.text;
             }
 
-            var form = $('#AlunosNovoForm');
+            var form = $('#AlunoNovoForm');
             var error = $('.alert-danger', form);
             var success = $('.alert-success', form);
 
@@ -24,50 +24,50 @@ var FormWizard = function () {
                 focusInvalid: false, // do not focus the last invalid input
                 rules: {
                     /*
-                    'data[Alunos][nome]': {
+                    'data[Aluno][nome]': {
                         required: true,
                         minlength: 4
                     },
-                    'data[Alunos][rg]': {
+                    'data[Aluno][rg]': {
                         required: true,
                         maxlength: 9
                     },
-                    'data[Alunos][sexo]': {
+                    'data[Aluno][sexo]': {
                         required: true
                     },
-                    'data[Alunos][aniversario]': {
+                    'data[Aluno][aniversario]': {
                         required: true
                     },
-                    'data[Alunos][email]': {
+                    'data[Aluno][email]': {
                         email: true
                     },                    
-                    'data[Alunos][email_responsavel]': {
+                    'data[Aluno][email_responsavel]': {
                         email: true
                     },                    
-                    'data[Alunos][nome_responsavel]': {
+                    'data[Aluno][nome_responsavel]': {
                         required: true
                     },                    
-                    'data[Alunos][cpf_responsavel]': {
+                    'data[Aluno][cpf_responsavel]': {
                         required: true,
                         maxlength: 11
                     },                    
-                    'data[Alunos][tel_principal]': {
+                    'data[Aluno][tel_principal]': {
                         required: true
                     },                    
-                    'data[Alunos][filiacao]': {
+                    'data[Aluno][filiacao]': {
                         required: true
                     },    
                     */
                 },
 
                 messages: { // custom messages for radio buttons and checkboxes
-                    'data[Alunos][aniversario]': {
+                    'data[Aluno][aniversario]': {
                         required: " "
                     }
                 },
 
                 errorPlacement: function (error, element) { // render error placement for each input type
-                    if (element.attr("name") == "data[Alunos][sexo]") { // for uniform radio buttons, insert the after the given container
+                    if (element.attr("name") == "data[Aluno][sexo]") { // for uniform radio buttons, insert the after the given container
                         error.insertAfter("#form_sexo_error");
                     } else if (element.attr("name") == "payment[]") { // for uniform radio buttons, insert the after the given container
                         error.insertAfter("#form_payment_error");
@@ -124,7 +124,7 @@ var FormWizard = function () {
                         $(this).html(input.attr("data-title"));
                     } else if ($(this).attr("data-display") == 'sexo') {
                         var payment = [];
-                        $('[name="data[Alunos][sexo]"]').each(function(){
+                        $('[name="data[Aluno][sexo]"]').each(function(){
                             payment.push($(this).attr('data-title'));
                         });
                         $(this).html(payment.join("<br>"));
@@ -145,24 +145,24 @@ var FormWizard = function () {
                 }
 
                 if (current == 1) {
-                    $('#AlunosNovoForm').find('.button-previous').hide();
+                    $('#AlunoNovoForm').find('.button-previous').hide();
                 } else {
-                    $('#AlunosNovoForm').find('.button-previous').show();
+                    $('#AlunoNovoForm').find('.button-previous').show();
                 }
 
                 if (current >= total) {
-                    $('#AlunosNovoForm').find('.button-next').hide();
-                    $('#AlunosNovoForm').find('.button-submit').show();
+                    $('#AlunoNovoForm').find('.button-next').hide();
+                    $('#AlunoNovoForm').find('.button-submit').show();
                     displayConfirm();
                 } else {
-                    $('#AlunosNovoForm').find('.button-next').show();
-                    $('#AlunosNovoForm').find('.button-submit').hide();
+                    $('#AlunoNovoForm').find('.button-next').show();
+                    $('#AlunoNovoForm').find('.button-submit').hide();
                 }
                 App.scrollTo($('.page-title'));
             }
 
             // default form wizard
-            $('#AlunosNovoForm').bootstrapWizard({
+            $('#AlunoNovoForm').bootstrapWizard({
                 'nextSelector': '.button-next',
                 'previousSelector': '.button-previous',
                 onTabClick: function (tab, navigation, index, clickedIndex) {
@@ -193,14 +193,14 @@ var FormWizard = function () {
                     var total = navigation.find('li').length;
                     var current = index + 1;
                     var $percent = (current / total) * 100;
-                    $('#AlunosNovoForm').find('.progress-bar').css({
+                    $('#AlunoNovoForm').find('.progress-bar').css({
                         width: $percent + '%'
                     });
                 }
             });
 
-            $('#AlunosNovoForm').find('.button-previous').hide();
-            $('#AlunosNovoForm .button-submit').click(function () {                
+            $('#AlunoNovoForm').find('.button-previous').hide();
+            $('#AlunoNovoForm .button-submit').click(function () {                
                 alert('Finished! Hope you like it :)');
             }).hide();
         }

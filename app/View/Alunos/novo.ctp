@@ -5,7 +5,7 @@ echo $this->Html->script(
 ));
 
 $action_buttons = "<button type='button' class='btn default'>";
-$action_buttons .= $this->Html->link('Cancelar', array('controller' => 'Alunos', 'action' => 'index'), array('confirm' => __('Toda alteracao sera perdida, deseja continuar?')));
+$action_buttons .= $this->Html->link('Cancelar', array('controller' => 'Aluno', 'action' => 'index'), array('confirm' => __('Toda alteracao sera perdida, deseja continuar?')));
 $action_buttons .= "</button>";
 $action_buttons .= "<button type='submit' class='btn blue'><i class='icon-ok'></i> Salvar </button>";
 ?>
@@ -30,7 +30,7 @@ $action_buttons .= "<button type='submit' class='btn blue'><i class='icon-ok'></
                 </li>
                 <li>
                     <i class=""></i>
-                    <?php echo $this->html->link('Alunos', 'javascript:;'); ?>
+                    <?php echo $this->html->link('Aluno', 'javascript:;'); ?>
                     <i class="icon-angle-right"></i>
                 </li>
                 <li><?php echo $this->html->link('Novo', 'javascript:;'); ?></li>
@@ -53,7 +53,7 @@ $action_buttons .= "<button type='submit' class='btn blue'><i class='icon-ok'></
                     </div>
                 </div>
                 <div class="portlet-body form">
-                    <?php echo $this->Form->create('Alunos', array('class' => 'form-horizontal')) ?>
+                    <?php echo $this->Form->create('Aluno', array('class' => 'form-horizontal')) ?>
                     <!--                    <form action="#" class="form-horizontal" id="submit_form">-->
                     <div class="form-wizard">
                         <div class="form-body">
@@ -126,11 +126,11 @@ $action_buttons .= "<button type='submit' class='btn blue'><i class='icon-ok'></
                                         <div class="col-md-4">
                                             <div class="radio-list">
                                                 <label>
-                                                    <input type="radio" name="data[Alunos][sexo]" value="M" data-title="Masculino" <?php echo $this->data['Aluno']['sexo'] == 'M' ? 'checked' : '' ?>>
+                                                    <input type="radio" name="data[Aluno][sexo]" value="M" data-title="Masculino" <?php echo $this->data['Aluno']['sexo'] == 'M' ? 'checked' : '' ?>>
                                                     <?php echo __('Masculino') ?>
                                                 </label>
                                                 <label>
-                                                    <input type="radio" name="data[Alunos][sexo]" value="F" data-title="Feminino" <?php echo $this->data['Aluno']['sexo'] == 'F' ? 'checked' : '' ?>>
+                                                    <input type="radio" name="data[Aluno][sexo]" value="F" data-title="Feminino" <?php echo $this->data['Aluno']['sexo'] == 'F' ? 'checked' : '' ?>>
                                                     <?php echo __('Feminino') ?>
                                                 </label>
                                             </div>

@@ -51,16 +51,11 @@ class AlunosController extends AppController {
      */
     public function novo() { //add
         if ($this->request->is('post')) {
-
-
             $this->Aluno->create();
             if ($this->Aluno->save($this->request->data)) {
-                echo "<pre>";
-                print_r($this->request->data);
-                echo "</pre>";
 
                 $this->Session->setFlash('', 'alert_success');
-                //return $this->redirect(array('action' => 'index'));
+                return $this->redirect(array('action' => 'novo'));
             } else {
                 $this->Session->setFlash('', 'alert_warning');
             }
